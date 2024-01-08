@@ -139,7 +139,7 @@ img {
 
 /*480 <-> 0*/
 @media screen and (max-width: 480px) {
-/* section lessons*/
+/* lessons*/
     .lessons .row {
         display: flex;
         flex-wrap: wrap;
@@ -151,7 +151,7 @@ img {
         padding-bottom: 25px;
     }
 
-/* /steps */
+/* steps */
     .steps,
     .why-us {
         margin-bottom: 0;
@@ -167,6 +167,21 @@ img {
         padding-bottom: 25px;
     }
 
+
+    /* why-us */
+    .why-us .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .why-us .col-left {
+        width: 100%;
+        padding-bottom: 25px;
+    }
+    .why-us .col-right {
+        width: 100%;
+    }
+
+   
 
 }
 
