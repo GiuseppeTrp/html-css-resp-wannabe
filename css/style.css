@@ -129,7 +129,7 @@ img {
  ************************************************/
 
 
- /*da 1140 a 0*/
+ /*1140 <-> 0*/
 @media screen and (max-width: 1140px) {
     .container {
         max-width: 100%;
@@ -137,7 +137,7 @@ img {
     }
 }
 
-/*da 480 a 0*/
+/*480 <-> 0*/
 @media screen and (max-width: 480px) {
 /* section lessons*/
     .lessons .row {
@@ -148,7 +148,7 @@ img {
     .lessons .col {
         flex-shrink: 0;
         width: 100%;
-        padding-bottom: 2.5rem;
+        padding-bottom: 25px;
     }
 
 }
